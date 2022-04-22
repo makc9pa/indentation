@@ -1,0 +1,39 @@
+.text-first {
+    padding: 25px 0;
+}
+
+.text-first-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text-first__caption {
+    margin-bottom: 30px;
+}
+
+.text-first__image-left {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.text-first-container-p-right {
+    float: right;
+    width: 480px;
+}
+
+.text-first__text-right:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.text-first__image-right {
+    float: right;
+}
+
+.text-first-container-p-left {
+    float: left;
+    width: 480px;
+}
+
+.text-first__text-left:not(:last-child) {
+    margin-bottom: 30px;
+}

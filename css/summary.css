@@ -1,0 +1,26 @@
+.summary {
+    padding-top: 25px;
+}
+
+.summary-container {
+    padding: 25px 30px;
+    background-color: hsl(0, 0%, 94.5%);
+}
+
+.summary__subtitle {
+    margin-bottom: 20px;
+}
+
+.summary__list li:before {
+    content: "—";
+    position: relative;
+    left: -5px;
+}
+
+.summary__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.summary__item:last-child {
+    margin-bottom: 30px;
+}

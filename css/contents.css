@@ -1,0 +1,24 @@
+.contents {
+    padding: 25px 0;
+}
+
+.contents-container {
+    padding: 25px 45px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 94.5%)
+}
+
+.contents__subtitle {
+    margin-bottom: 20px;
+}
+
+.contents__list {
+    margin: 0;
+    padding-left: 30px;
+    text-decoration: underline;
+    color: hsl(187.7, 95.9%, 19%)
+}
+
+.contents__item:not(:last-child) {
+    margin-bottom: 10px;
+}

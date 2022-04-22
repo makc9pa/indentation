@@ -1,0 +1,12 @@
+.lead {
+    padding-bottom: 25px;
+}
+
+.lead-container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.lead__text:not(:last-child) {
+    margin-bottom: 30px;
+}

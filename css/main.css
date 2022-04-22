@@ -1,0 +1,140 @@
+@import url(contents.css);
+@import url(lead.css);
+@import url(summary.css);
+@import url(text-first.css);
+@import url(text-second.css);
+@import url(text-third.css);
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Black"),
+        local("Roboto-Black"),
+        url("../fonts/Roboto-Black.woff2"),
+        url("../fonts/Roboto-Black.woff");
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Bold"),
+        local("Roboto-Bold"),
+        url("../fonts/Roboto-Bold.woff2"),
+        url("../fonts/Roboto-Bold.woff");
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: local("Roboto-Regular"),
+        local("Roboto-Regular"),
+        url("../fonts/Roboto-Regular.woff2"),
+        url("../fonts/Roboto-Regular.woff");
+    font-weight: 400;
+    font-display: swap;
+}
+
+html {
+    position: relative;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 100%)
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 0;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+iframe {
+    border: none;
+}
+
+/*
+Доступно скрываю элементы
+  */
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.body-container {
+    min-width: 320px;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 60px 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    color: hsl(0, 0%, 0%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.title {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.caption {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 120%;
+}
+
+.clear-fix {
+    width: 100%;
+    height: 1px;
+    clear: both
+}
