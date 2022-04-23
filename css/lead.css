@@ -3,8 +3,8 @@
 }
 
 .lead-container {
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 1080px;
+    margin: 0 auto;
 }
 
 .lead__text:not(:last-child) {

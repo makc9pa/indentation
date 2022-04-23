@@ -3,7 +3,10 @@
 }
 
 .summary-container {
+    width: 1140px;
+    margin: 0 auto;
     padding: 25px 30px;
+    border-radius: 10px;
     background-color: hsl(0, 0%, 94.5%);
 }
 
